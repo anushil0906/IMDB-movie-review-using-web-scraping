@@ -14,6 +14,7 @@ $ pip install pandas
 I structured the code using classes such as Scraper, Sentimental Models, Preprocessor, and Review Dataset, each encapsulating a distinct responsibility. Libraries such as BeautifulSoup and Selenium implement a robust web scraper that collects movie reviews, followed by a preprocessing and sentiment classification pipeline.
 
 **Processing**
+
 -> The code first scrapes the movie reviews from the IMDB top 100 movies list using Selenium and BeautifulSoup, and we can select any movie and extract its 500 reviews in a text format for further analysis.
 -> Then a sentiment analysis model has been implemented by me to decides whether a review is positive or negative which uses the en_core_web_sm model from a Python library known as spaCy for natural language for      processing the extracted reviews for a text categorizer, which is a convolutional neural network that classifies text as positive or negative.
 
