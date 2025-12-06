@@ -23,4 +23,6 @@ I structured the code using classes such as Scraper, Sentimental Models, Preproc
 
 -> It uses minibatches and compounding to train effectively and track loss, precision, recall, and f-score in each round. Learns different word patterns that indicate negative and positive sentiments.
 
--> Then it saves the model into a folder called model-artifacts. ->For testing the model on extracted IMDB reviews, it uses spaCy.load("model-artifacts") and prints the predicted positive or negative sentiment and confidence score.
+-> Then it saves the model into a folder called model-artifacts. 
+
+->For testing the model on extracted IMDB reviews, it uses spaCy.load("model-artifacts") and prints the predicted positive or negative sentiment and confidence score.
