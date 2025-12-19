@@ -15,6 +15,8 @@ step2:- activate the virtual env by running this command in CMD (venv\Scripts\ac
 
 step3:- (venv) C:\Users\sharm\Downloads\virtualrum> pip install -r req.txt
 
+step4:- (venv) C:\Users\sharm\Downloads\virtualrum> python WEBscrapIMDB.py
+
 
 **EXPLAINATION**
 
