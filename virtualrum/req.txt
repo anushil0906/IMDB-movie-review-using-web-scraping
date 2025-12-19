@@ -1,0 +1,22 @@
+# Core dependencies
+spacy==2.3.9
+thinc==7.4.5
+numpy==1.19.5
+pandas==1.3.5
+scikit-learn==0.24.2
+
+# Web scraping
+requests==2.27.1
+beautifulsoup4==4.10.0
+selenium==4.1.0
+
+# Text cleaning & processing
+clean-text==0.6.0
+regex==2022.3.15
+
+# Optional (for progress bars, debugging)
+tqdm==4.64.1
+
+# Ensure model downloading works
+srsly==1.0.5
+catalogue==1.0.0
