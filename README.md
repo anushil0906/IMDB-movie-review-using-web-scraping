@@ -5,9 +5,12 @@ use dataset https://ai.stanford.edu/~amaas/data/sentiment/
 to train the model
 
 **for running in virtual env**
+
 step 1:- created a virtual env in virtualrum folder through this command in CMD (py -3.9 -m venv venv)
+
 step2:- activate the virtual env by running this command in CMD (venv\Scripts\activate)
-step3:- (venv) C:\Users\sharm\Downloads\aclImdb_v1> pip install -r req.txt
+
+step3:- (venv) C:\Users\sharm\Downloads\virtualrum> pip install -r req.txt
 
 
 **EXPLAINATION**
